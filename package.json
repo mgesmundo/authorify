@@ -1,0 +1,37 @@
+{
+  "name": "authorify",
+  "version": "0.0.0",
+  "description": "Authorization and authentication middleware for REST server",
+  "private": false,
+  "preferGlobal": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter spec --recursive"
+  },
+  "dependencies" : {
+  },
+  "analyze": false,
+  "devDependencies": {
+    "mocha": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgesmundo/authorify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgesmundo/authorify/issues"
+  },
+  "keywords": [
+    "authentication",
+    "authorization",
+    "rest",
+    "restify",
+    "x509",
+    "ssl"
+  ],
+  "author": "Marcello Gesmundo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
