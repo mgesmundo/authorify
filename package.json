@@ -1,18 +1,30 @@
 {
   "name": "authorify",
-  "version": "0.0.0",
-  "description": "Authorization and authentication middleware for REST server",
+  "version": "1.1.0",
+  "description": "Authorization and authentication system for REST server",
   "private": false,
   "preferGlobal": false,
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require should --reporter spec --recursive"
+    "test": "mocha test/*-test.js --require should --reporter spec"
   },
-  "dependencies" : {
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "async": "~0.9.0",
+    "authorify-client": "^1.1.0",
+    "express-load": "~1.1.14",
+    "mathjs": "~0.23.0",
+    "node-forge": "~0.6.4",
+    "logged-errors": "^2.8.1-4",
+    "restify-session": "^1.0.2"
   },
   "analyze": false,
   "devDependencies": {
-    "mocha": "1.x"
+    "mocha": "~1.20.0",
+    "node-uuid": "~1.4.1",
+    "restify": "~2.8.0",
+    "should": "~4.0.4",
+    "authorify-websocket": "^1.0.0"
   },
   "repository": {
     "type": "git",
@@ -22,16 +34,15 @@
     "url": "https://github.com/mgesmundo/authorify/issues"
   },
   "keywords": [
-    "authentication",
-    "authorization",
     "rest",
     "restify",
-    "x509",
-    "ssl"
+    "authorization",
+    "authentication",
+    "X509"
   ],
   "author": "Marcello Gesmundo",
-  "license": "MIT",
+  "license": "AGPL3",
   "engines": {
-    "node": ">=0.8"
+    "node": ">=0.10"
   }
 }

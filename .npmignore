@@ -1,5 +1,5 @@
 .gitignore
 .git/
 .idea/
-cert/
+lib/config/cert/
 *.rdb

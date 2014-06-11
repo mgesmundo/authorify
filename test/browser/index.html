@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>authorify-client tests</title>
+        <link rel="stylesheet" href="vendor/mocha.css" />
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="vendor/should.js"></script>
+        <script src="vendor/mocha.js"></script>
+        <script>mocha.setup('bdd')</script>
+        <script src="authorify.js"></script>
+        <script src="authorify-websocket.js"></script>
+        <script src="test.js"></script>
+        <script>
+            var client = authorify;
+            mocha.checkLeaks();
+            mocha.run();
+        </script>
+    </body>
+</html>
