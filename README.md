@@ -88,19 +88,19 @@ As mentioned above, all requestes from the client and all responses from the ser
 
 #### Request
 
-    ```json
-    {
-        "payload": {
-            "type": String,
-            "cert": String
-        },
-        "content": {
-            "date": Number,
-            "token": String
-        },
-        "signature": String
-    }
-    ```
+```json
+{
+    "payload": {
+        "type": String,
+        "cert": String
+    },
+    "content": {
+        "date": Number,
+        "token": String
+    },
+    "signature": String
+}
+```
 
 where:
 
@@ -119,20 +119,20 @@ where:
 
 #### Response
 
-    ```json
-    {
-        "payload": {
-            "type": String,
-            "cert": String,
-            "sid": String
-        },
-        "content": {
-            "date": Number,
-            "token": String
-        },
-        "signature": String
-    }
-    ```
+```json
+{
+    "payload": {
+        "type": String,
+        "cert": String,
+        "sid": String
+    },
+    "content": {
+        "date": Number,
+        "token": String
+    },
+    "signature": String
+}
+```
 
 where:
 
@@ -158,17 +158,17 @@ Both client and server store the received X.509 certificate after a successful v
 
 #### Request
 
-    ```json
-    {
-        "payload": {
-            "type": String,
-            "sid": String,
-            "secret": String
-        },
-        "content": String,
-        "signature": String
-    }
-    ```
+```json
+{
+    "payload": {
+        "type": String,
+        "sid": String,
+        "secret": String
+    },
+    "content": String,
+    "signature": String
+}
+```
 
 where:
 
@@ -211,17 +211,17 @@ Note that in case of Node.js client, you can omit username/password and define y
 
 #### Response
 
-    ```json
-    {
-        "payload": {
-            "type": String,
-            "sid": String,
-            "secret": String
-        },
-        "content": String,
-        "signature": String
-    }
-    ```
+```json
+{
+    "payload": {
+        "type": String,
+        "sid": String,
+        "secret": String
+    },
+    "content": String,
+    "signature": String
+}
+```
 
 where:
 
@@ -262,17 +262,17 @@ where:
 
 #### Request
 
-    ```json
-    {
-        "payload": {
-            "type": String,
-            "sid": String,
-            "secret": String
-        },
-        "content": String,
-        "signature": String
-    }
-    ```
+```json
+{
+    "payload": {
+        "type": String,
+        "sid": String,
+        "secret": String
+    },
+    "content": String,
+    "signature": String
+}
+```
 
 where:
 
@@ -297,17 +297,17 @@ where:
 
 #### Response
 
-    ```json
-    {
-        "payload": {
-            "type": String,
-            "sid": String,
-            "secret": String
-        },
-        "content": String,
-        "signature": String
-    }
-    ```
+```json
+{
+    "payload": {
+        "type": String,
+        "sid": String,
+        "secret": String
+    },
+    "content": String,
+    "signature": String
+}
+```
 
 where:
 
