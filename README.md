@@ -88,6 +88,7 @@ As mentioned above, all requestes from the client and all responses from the ser
 
 #### Request
 
+    ```json
     {
         "payload": {
             "type": String,
@@ -99,6 +100,7 @@ As mentioned above, all requestes from the client and all responses from the ser
         },
         "signature": String
     }
+    ```
 
 where:
 
@@ -117,6 +119,7 @@ where:
 
 #### Response
 
+    ```json
     {
         "payload": {
             "type": String,
@@ -129,6 +132,7 @@ where:
         },
         "signature": String
     }
+    ```
 
 where:
 
@@ -154,6 +158,7 @@ Both client and server store the received X.509 certificate after a successful v
 
 #### Request
 
+    ```json
     {
         "payload": {
             "type": String,
@@ -163,6 +168,7 @@ Both client and server store the received X.509 certificate after a successful v
         "content": String,
         "signature": String
     }
+    ```
 
 where:
 
@@ -205,6 +211,7 @@ Note that in case of Node.js client, you can omit username/password and define y
 
 #### Response
 
+    ```json
     {
         "payload": {
             "type": String,
@@ -214,6 +221,7 @@ Note that in case of Node.js client, you can omit username/password and define y
         "content": String,
         "signature": String
     }
+    ```
 
 where:
 
@@ -254,6 +262,7 @@ where:
 
 #### Request
 
+    ```json
     {
         "payload": {
             "type": String,
@@ -263,6 +272,7 @@ where:
         "content": String,
         "signature": String
     }
+    ```
 
 where:
 
@@ -287,6 +297,7 @@ where:
 
 #### Response
 
+    ```json
     {
         "payload": {
             "type": String,
@@ -296,6 +307,7 @@ where:
         "content": String,
         "signature": String
     }
+    ```
 
 where:
 
